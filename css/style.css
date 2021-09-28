@@ -33,9 +33,50 @@ header h1{
 
 
 /* +++++ MAIN +++++ */
-.container-pad{
 
+/* +++ SEZIONE BUTTON +++ */
+.container-pad{
+    width: 70vw;
+    margin: 5vh auto;
+    background-color: white;
+    border-radius: 5px;
 }
 
+#sezione-button{
+    width: 60vw;
+    height: 6vh;
+    margin: auto;
+    line-height: 6vh;
+}
+
+.button{
+    padding: .8vh 1vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vh;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: .3vw;
+}
+
+.ready{
+    color: white;
+    background-color: rgb(77, 183, 233);
+    border: 2px solid rgb(77, 183, 233);
+    border-style: solid;
+}
+
+.pause{
+    color: lightgrey;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-style: solid;
+}
+
+hr{
+    background: rgb(238, 237, 237);
+    border:none;
+    height: .2vh;
+}
+/* --- FINE SEZIONE BUTTON --- */
 
 /* ----- FINE MAIN ----- */

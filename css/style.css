@@ -44,6 +44,55 @@ hr{
     border:none;
     height: .2vh;
 }
+/* --- FINE GENERALI MAIN --- */
+
+
+/* +++ SEZIONE BUTTON +++ */
+.container-pad{
+    width: 70vw;
+    margin: 5vh auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#sezione-button{
+    width: 60vw;
+    height: 6vh;
+    margin: auto;
+    line-height: 6vh;
+}
+
+.button{
+    padding: .8vh 1vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vh;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: .3vw;
+}
+
+.ready{
+    color: white;
+    background-color: rgb(77, 183, 233);
+    border: 2px solid rgb(77, 183, 233);
+    border-style: solid;
+}
+
+.pause{
+    color: lightgrey;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-style: solid;
+}
+/* --- FINE SEZIONE BUTTON --- */
+
+
+/* +++ ALTRE SEZIONI +++ */
+.altra-sezione{
+    width: 60vw;
+    margin: auto;
+    margin-top: 3vh;
+}
 
 h2{
     display: inline-block;
@@ -62,6 +111,7 @@ h2{
     border-left: .6vw solid transparent;
     border-right: .6vw solid transparent;
     margin-right: .3vw;
+    vertical-align: .3vh;
 }
 
 .riga-contenuto{
@@ -107,62 +157,46 @@ h2{
     margin-right: .3vw;
 }
 
-.blu{
-    color: white;
-    background-color: rgb(77, 183, 233);
-    border: 2px solid rgb(77, 183, 233);
-    border-style: solid;
-}
-/* --- FINE GENERALI MAIN --- */
-
-
-/* +++ SEZIONE BUTTON +++ */
-.container-pad{
-    width: 70vw;
-    margin: 5vh auto;
-    background-color: white;
-    border-radius: 5px;
-}
-
-#sezione-button{
-    width: 60vw;
-    height: 6vh;
-    margin: auto;
-    line-height: 6vh;
-}
-
-.button{
-    padding: .8vh 1vw;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2vh;
-    font-weight: 600;
-    border-radius: 5px;
-    margin-right: .3vw;
-}
-
-.ready{
+.blue{
     color: white;
     background-color: rgb(77, 183, 233);
     border: 2px solid rgb(77, 183, 233);
     border-style: solid;
 }
 
-.pause{
-    color: lightgrey;
-    background-color: white;
-    border: 2px solid lightgrey;
+.purple{
+    color: white;
+    background-color: rgb(161, 106, 212);
+    border: 2px solid rgb(161, 106, 212);
     border-style: solid;
 }
-/* --- FINE SEZIONE BUTTON --- */
 
-
-/* +++ SEZIONE TASK +++ */
-#sezione-task{
-    width: 60vw;
-    margin: auto;
-    margin-top: 3vh;
+.blue-green{
+    color: white;
+    background-color: rgb(70, 170, 162);
+    border: 2px solid rgb(70, 170, 162);
+    border-style: solid;
 }
-/* --- FINE SEZIONE TASK --- */
 
+.orange{
+    color: white;
+    background-color: rgb(218, 135, 27);
+    border: 2px solid rgb(218, 135, 27);
+    border-style: solid;
+}
 
+.pink{
+    color: white;
+    background-color: rgb(214, 86, 124);
+    border: 2px solid rgb(214, 86, 124);
+    border-style: solid;
+}
+
+.yellow-green{
+    color: white;
+    background-color: rgb(181, 209, 78);
+    border: 2px solid rgb(181, 209, 78);
+    border-style: solid;
+}
+/* --- FINE ALTRE SEZIONI --- */
 /* ----- FINE MAIN ----- */

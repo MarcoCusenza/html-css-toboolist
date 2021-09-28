@@ -10,7 +10,7 @@ body{
 }
 
 /* +++++ HEADER +++++ */
-header{
+.container-header{
     width: 100vw;
     background-color: white;
     line-height: 9vh;
@@ -33,5 +33,9 @@ header h1{
 
 
 /* +++++ MAIN +++++ */
+.container-pad{
+
+}
+
 
 /* ----- FINE MAIN ----- */

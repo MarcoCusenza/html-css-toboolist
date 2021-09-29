@@ -95,6 +95,7 @@ hr{
     margin-top: 3vh;
 }
 
+/* prova bug fixing con Nikolas, non c'entra la classe, era colpa del browser */
 .altra-sezione-1{
     width: 60vw;
     margin: auto;
